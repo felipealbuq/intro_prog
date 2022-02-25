@@ -20,10 +20,15 @@ while True:
         pessoas.append(idade)
         cont += 1
 
-idade_media = sum(pessoas) / cont
 
 pessoas.sort()
 
-print(f'Você digitou um total de {cont} pessoas.\n')
-print(f'A idade média do grupo é de: {idade_media}.\n')
-print(f'A menor idade é de {pessoas[0]} e a maior é de: {pessoas[-1]}')
+if cont == 0:
+    print('Você não digitou a idade de ninguém.')
+else:
+
+    idade_media = sum(pessoas) / cont
+
+    print(f'\nVocê digitou um total de {cont} pessoas.\n')
+    print(f'A idade média do grupo é de: {idade_media:.2f}\n')
+    print(f'A menor idade é de: {pessoas[0]} e a maior é de: {pessoas[-1]}')
