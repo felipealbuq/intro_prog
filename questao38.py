@@ -15,7 +15,7 @@ cont_homem = 0
 while cont <= 15:
     altura_pessoa = float(input(f'Digite a altura da {cont}º da pessoa (com ".") para a parte decimal:\n'))
     while altura_pessoa < 0:
-        print('Digite uma idade válida:\n')
+        print('Digite uma altura válida:\n')
         altura_pessoa = float(input(f'Digite a altura da {cont}º da pessoa:\n'))
 
     sexo_pessoa = str(input(f'Digite o sexo da {cont}º pessoa (M para homem e F para mulher):\n'))
