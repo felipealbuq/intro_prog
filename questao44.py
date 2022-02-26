@@ -17,5 +17,6 @@ for n in range(0,10):
 lista.reverse()
 
 print('Os valores em ordem decrescente são:')
+
 for c in lista:
     print(f'{c}',end= '   ')
