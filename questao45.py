@@ -9,6 +9,7 @@ nota_alunos = [[],[],[],[],[]]
 media_alunos = []
 aprovado = 7
 cont_aprovados = 1
+
 for c in range(0,5):
     print(f'Em relação ao {cont_aluno}º aluno.')
     for n in range(0,4):
