@@ -22,69 +22,69 @@ for c in range(0,5):
         if c == 0 and n == 0:
             nota = nota * 3
             nota_alunos[0].append(nota)
-        if c == 0 and n == 1:
+        elif c == 0 and n == 1:
             nota = nota * 2
             nota_alunos[0].append(nota)
-        if c == 0 and n == 2:
+        elif c == 0 and n == 2:
             nota = nota * 1
             nota_alunos[0].append(nota)
-        if c == 0 and n == 3:
+        elif c == 0 and n == 3:
             nota = nota * 1
             nota_alunos[0].append(nota)
 
 
-        if c == 1 and n == 0:
+        elif c == 1 and n == 0:
             nota = nota * 3
             nota_alunos[1].append(nota)
-        if c == 1 and n == 1:
+        elif c == 1 and n == 1:
             nota = nota * 2
             nota_alunos[1].append(nota)
-        if c == 1 and n == 2:
+        elif c == 1 and n == 2:
             nota = nota * 1
             nota_alunos[1].append(nota)
-        if c == 1 and n == 3:
+        elif c == 1 and n == 3:
             nota = nota * 1
             nota_alunos[1].append(nota)
 
 
-        if c == 2 and n == 0:
+        elif c == 2 and n == 0:
             nota = nota * 3
             nota_alunos[2].append(nota)
-        if c == 2 and n == 1:
+        elif c == 2 and n == 1:
             nota = nota * 2
             nota_alunos[2].append(nota)
-        if c == 2 and n == 2:
+        elif c == 2 and n == 2:
             nota = nota * 1
             nota_alunos[2].append(nota)
-        if c == 2 and n == 3:
+        elif c == 2 and n == 3:
             nota = nota * 1
             nota_alunos[2].append(nota)
 
 
-        if c == 3 and n == 0:
+        elif c == 3 and n == 0:
             nota = nota * 3
             nota_alunos[3].append(nota)
-        if c == 3 and n == 1:
+        elif c == 3 and n == 1:
             nota = nota * 2
             nota_alunos[3].append(nota)
-        if c == 3 and n == 2:
+        elif c == 3 and n == 2:
             nota = nota * 1
             nota_alunos[3].append(nota)
-        if c == 3 and n == 3:
+        elif c == 3 and n == 3:
             nota = nota * 1
             nota_alunos[3].append(nota)
 
 
-        if c == 4 and n == 0:
+        elif c == 4 and n == 0:
             nota = nota * 3
             nota_alunos[4].append(nota)
-        if c == 4 and n == 1:
+        elif c == 4 and n == 1:
             nota = nota * 2
             nota_alunos[4].append(nota)
-        if c == 4 and n == 2:
+        elif c == 4 and n == 2:
             nota = nota * 1
             nota_alunos[4].append(nota)
-        if c == 4 and n == 3:
+        elif c == 4 and n == 3:
             nota = nota * 1
             nota_alunos[4].append(nota)
 
