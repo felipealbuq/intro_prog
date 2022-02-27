@@ -8,6 +8,7 @@ cont_nota = 1
 nota_alunos = [[],[],[],[],[]]
 media_alunos = []
 aprovado = 7
+reprovado = 3
 cont_aprovados = 1
 
 for c in range(0,5):
@@ -106,7 +107,10 @@ media_alunos.append(media_aluno5)
 for a in media_alunos:
     if a >= aprovado:
         print(f'A média ponderada do {cont_aprovados}º aluno é de {a:.2f}')
-        print(f'O {cont_aprovados}º foi aprovado.\n')
+        print(f'O {cont_aprovados}º aluno foi aprovado.\n')
+    elif a < reprovado:
+        print(f'A média ponderada do {cont_aprovados}º aluno é de {a:.2f}')
+        print(f'O {cont_aprovados}º aluno foi reprovado.\n')
     else:
         print(f'A média ponderada do {cont_aprovados}º aluno é de {a:.2f}')
         print(f'O {cont_aprovados}º aluno vai para recuperação e faltam {aprovado - a:.2f}'
