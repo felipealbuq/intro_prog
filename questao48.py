@@ -4,4 +4,4 @@ import calendar
 
 ano = int(input('Digite o ano para ver seu respectivo calendário:\n'))
 
-print (calendar.TextCalendar(calendar.SUNDAY).formatyear(ano))
+print(calendar.TextCalendar(calendar.SUNDAY).formatyear(ano))
