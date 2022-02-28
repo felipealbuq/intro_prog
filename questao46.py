@@ -23,3 +23,5 @@ for a,o in zip(coordenadas[0],coordenadas[1]):
     print(f'{a} ------ {o}')
 
 
+
+    
