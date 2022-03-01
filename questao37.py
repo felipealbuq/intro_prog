@@ -16,3 +16,5 @@ for p in range(2, n+1, 2):
 for impar,par in zip(numeros[0],numeros[1]):
     print(f'{impar} {par}')
 
+if n % 2!= 0:
+    print(f'{n}')
